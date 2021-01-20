@@ -1,0 +1,71 @@
+body{
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
+}
+
+.wrapper{
+    padding: 1em 20% 1em 20%;
+}
+header.wrapper{
+    background-color: crimson;
+}
+header h1{
+    color: antiquewhite;
+}
+main .wrapper{
+    padding: 1em 20% 0 20%;
+    background-color: transparent;
+
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+ul {
+    list-style: none;
+    padding-inline-start: 0;
+}
+.flex-container .date{
+    /* flex-grow: 1; */
+    width:100px;
+    /* background-color: aquamarine; */
+    flex-shrink: 0;
+    padding:5px 0 5px;
+}
+.flex-container .description{
+    flex-grow: 3;
+    flex-shrink: 1;
+    /* background-color: cadetblue; */
+    padding:5px 0 5px;
+}
+.flex-item{
+    width: 150px;
+    /* background-color: crimson; */
+    /* padding: 20px; */
+    flex-grow: 1;
+    color: #fcf7f1;
+}
+
+footer .flex-item{
+    padding: 0;
+    background-color: crimson;
+}
+
+#subscribe {
+    padding: 3rem;
+}
+#subscribe input{
+    display: block;
+    margin-bottom:1rem;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.blue-bg{
+    background-color: darkcyan;
+}
